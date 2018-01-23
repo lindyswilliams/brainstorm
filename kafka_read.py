@@ -16,14 +16,6 @@ parser.add_argument('-top','--topic', help='topic to consume', required=True, ty
 parser.add_argument('-bucket','--s3_bucket', help='s3 bucket to write to', required=True, type=str)
 args = parser.parse_args()
 
-
-parser = argparse.ArgumentParser(description='Take variables for writing to s3.')
-args = parser.parse_args()
-args.top = 'weather_data'
-args.add = '172.31.17.170'
-args.mins = 5
-
-
 s3 = boto3.resource('s3')
 
 def increment():
