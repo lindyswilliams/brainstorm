@@ -19,7 +19,6 @@ def get_col_row_grid_matrix(original_matrix):
 	all_idxs.extend([idx2])
 	all_idxs.extend([idx3])
 
-
 	grid_grids = []
 	for the_idx in all_idxs:
 		for the_sec_idx in all_idxs:
@@ -155,6 +154,7 @@ fourth_iter = one_iteration(third_iter)
 
 
 # clean code
+# create unit tests
 
 # in the future, want to encorporate checking the cols and grids, 
 # but if they find the same number, don't want to add them
