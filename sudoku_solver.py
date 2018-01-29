@@ -152,7 +152,7 @@ third_iter = one_iteration(sec_iter)
 fourth_iter = one_iteration(third_iter)
 
 
-
+# add automatic iteration stopping
 # clean code
 # create unit tests
 
